@@ -1,0 +1,33 @@
+Constructors
+========================
+-->it is a special type of method.
+-->it doesnot return any value.
+-->the constructor name should be same as the class name.
+-->it is used to initialize an instance variable.
+-->it will exicute during object creation time.
+-->it will exicute one time for every object creation.
+-->it can contain any number of parameters
+--->Static,final and abstract cannotbe used for constructors.it can allow static inside the constructor
+i)default constructor 
+ii)parameterized constructor
+-->A class can contain any number of constructors.
+
+Note:through method if we want to print the output then we use the object.
+through constructor if we want to print the output then we will use variable.
+
+method----->instance----->obj
+cons------->instance------>var
+
+
+
+this keyword
+=========================
+-->this keyword refers to current instance of a class.
+-->using this keyword we can access current members in a class(variables,methods).
+-->specifyng this keyword is not mandatory to use.
+
+
+Mandatory
+===================
+if there is a confusion between instance variable and local variablethen specifying this keyword is mandatory.in such case if we dont specify this keyword and insteadacces local variable.if we want to accessinstance variable then the programmer has to specify this keyword.
+
